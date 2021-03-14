@@ -17,7 +17,7 @@ export default function CoC() {
                 <path d="M5.68 7.314l-1.82 5.914L12 19.442l8.14-6.214-1.82-5.914L16.643 11H7.356L5.681 7.314zM15.357 9l2.888-6.354a.4.4 0 0 1 .747.048l3.367 10.945a.5.5 0 0 1-.174.544L12 21.958 1.816 14.183a.5.5 0 0 1-.174-.544L5.009 2.694a.4.4 0 0 1 .747-.048L8.644 9h6.712z" />
               </svg>
             </div>
-            <h1 class="mb-6 underline text-2xl font-semibold tracking-tighter text-black sm:text-6xl title-font">
+            <h1 class="mb-6 mx-auto underline text-2xl font-semibold tracking-tighter text-black sm:text-6xl title-font">
               Code Of Conduct
               <br class="" />
             </h1>
