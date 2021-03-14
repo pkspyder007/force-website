@@ -10,7 +10,7 @@ export default function Header() {
     <>
       <header className="lg:px-16 px-6 bg-black text-white flex flex-wrap items-center lg:py-4 py-3">
         <div className="flex-1 flex justify-between items-center">
-          <a href="#">
+          <a href="/">
             <h2 className="text-xl font-bold">FORCE</h2>
           </a>
         </div>
@@ -38,7 +38,7 @@ export default function Header() {
               <li>
                 <a
                   className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
-                  href="#about-1"
+                  href="/#about-1"
                 >
                   About
                 </a>

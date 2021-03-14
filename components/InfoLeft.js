@@ -7,7 +7,7 @@ export default function InfoLeft() {
             <h1 class="mb-8 text-2xl font-bold tracking-tighter text-center text-black lg:text-left lg:text-2xl title-font">
               WHY YOU SHOULD JOIN OUR COMMUNITY
             </h1>
-            <p class="mb-8 text-base leading-relaxed text-center text-gray-700 lg:text-left lg:text-1xl">
+            <p class="mb-8 text-base leading-relaxed text-left text-gray-700 lg:text-left lg:text-1xl">
               Deploy your mvp in minutes, not days. WT offers you a a wide
               selection swapable sections for your landing page.You are going to
               have fun building it, I did.

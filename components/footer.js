@@ -2,11 +2,11 @@ export default function Footer() {
   return (
     <>
       <section className="">
-        <div className="container w-full p-20 m-4 mx-auto my-8 text-center bg-white border-2 border-dashed h-60 border-blueGray-300 rounded-xl">
+        {/* <div className="container w-full p-20 m-4 mx-auto my-8 text-center bg-white border-2 border-dashed h-60 border-blueGray-300 rounded-xl">
           <p className="mt-20 italic tracking-tighter text-md text-blueGray-500 title-font">
             -- Content goes here --
           </p>
-        </div>
+        </div> */}
       </section>
       <footer className="text-gray-700 border-t body-font">
         <div className="container flex flex-col flex-wrap p-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">

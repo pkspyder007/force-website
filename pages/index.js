@@ -1,3 +1,4 @@
+import CoC from "@components/CoC";
 import Hero from "@components/Hero";
 import InfoLeft from "@components/InfoLeft";
 import InfoRight from "@components/InfoRight";
@@ -9,6 +10,7 @@ export default function IndexPage() {
       <Hero />
       <InfoLeft />
       <InfoRight />
+      <CoC />
     </div>
   );
 }
