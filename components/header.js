@@ -7,56 +7,67 @@ export default function Header() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <header className="bg-green-600">
-      <div className="flex flex-wrap items-center justify-between lg:container px-4 py-6 mx-auto md:flex-no-wrap md:px-6">
-        <div className="flex items-center">
-          <Image
-            src="/tailwind-logo.svg"
-            width={40}
-            height={40}
-            priority
-            alt="Tailwind CSS logo"
-          />
-
-          <Link href="/">
-            <a className="text-lg md:text-xl font-bold ml-3 text-white">
-              Next.js Starter Tailwind
-            </a>
-          </Link>
+    <>
+      <header className="lg:px-16 px-6 bg-black text-white flex flex-wrap items-center lg:py-4 py-3">
+        <div className="flex-1 flex justify-between items-center">
+          <a href="#">
+            <h2 className="text-xl font-bold">FORCE</h2>
+          </a>
         </div>
 
-        <button
-          className="flex items-center block px-3 py-2 text-white border border-white rounded md:hidden"
-          onClick={() => setMobileMenuIsOpen(!mobileMenuIsOpen)}
-        >
+        <label htmlFor="menu-toggle" className="pointer-cursor lg:hidden block">
           <svg
-            className="w-3 h-3 fill-current"
-            viewBox="0 0 20 20"
+            className="fill-current text-white"
             xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
           >
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
           </svg>
-        </button>
+        </label>
+        <input className="hidden" type="checkbox" id="menu-toggle" />
 
-        <ul
-          className={cn(
-            "md:flex flex-col md:flex-row md:items-center md:justify-center text-sm w-full md:w-auto",
-            mobileMenuIsOpen ? `block` : `hidden`
-          )}
+        <div
+          className="hidden lg:flex lg:items-center lg:w-auto w-full"
+          id="menu"
         >
-          {[
-            { title: "Home", route: "/" },
-            { title: "About", route: "/about" },
-          ].map(({ route, title }) => (
-            <li className="mt-3 md:mt-0 md:ml-6" key={title}>
-              <Link href={route}>
-                <a className="block text-white">{title}</a>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </header>
+          <nav>
+            <ul className="lg:flex items-center justify-between text-base text-white-700 pt-4 lg:pt-0">
+              <li>
+                <a
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+                  href="#"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+                  href="#"
+                >
+                  Team
+                </a>
+              </li>
+              <li>
+                <a
+                  className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+                  href="#"
+                >
+                  Wall Of Fame
+                </a>
+              </li>
+              <li>
+                <button class="inline-flex items-center px-6 py-2 font-semibold text-black transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    </>
   );
 }
