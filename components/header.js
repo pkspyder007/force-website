@@ -38,7 +38,7 @@ export default function Header() {
               <li>
                 <a
                   className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
-                  href="#"
+                  href="#about-1"
                 >
                   About
                 </a>
@@ -46,7 +46,7 @@ export default function Header() {
               <li>
                 <a
                   className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
-                  href="#"
+                  href="/team"
                 >
                   Team
                 </a>
@@ -54,7 +54,7 @@ export default function Header() {
               <li>
                 <a
                   className="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
-                  href="#"
+                  href="walloffame"
                 >
                   Wall Of Fame
                 </a>

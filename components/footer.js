@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
               <h1 className="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font">
-                Product
+                Events
               </h1>
               <nav className="mb-10 list-none">
                 <li>
@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
               <h1 className="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font">
-                Company
+                Links
               </h1>
               <nav className="mb-10 list-none">
                 <li>
