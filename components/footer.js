@@ -10,41 +10,23 @@ export default function Footer() {
       </section>
       <footer className="text-gray-700 border-t body-font">
         <div className="container flex flex-col flex-wrap p-8 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap ">
-          <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
+          {/* <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left lg:w-1/4 md:w-1/2">
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start ">
               <div className="w-2 h-2 p-2 mr-2 rounded-full bg-gradient-to-tr from-cyan-400 to-lightBlue-500"></div>
               <h2 className="text-2xl font-bold tracking-tighter text-black uppercase transition duration-500 ease-in-out transform hover:text-lightBlack-500 dark:text-lightBlue-400">
                 FORCE
               </h2>
             </a>
-          </div>
+          </div> */}
+          {/* <div className="w-full px-4 lg:w-1/3 md:w-1/2"></div> */}
           <div className="flex flex-wrap flex-grow mt-8 -mb-10 text-left md:pl-20 md:mt-0 ">
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
               <h1 className="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font">
                 Events
               </h1>
-              <nav className="mb-10 list-none">
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Email Templates
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Web Templates
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Figma Files
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Sketch Files
-                  </a>
-                </li>
-              </nav>
+              <span className="text-sm text-gray-600 hover:text-gray-800">
+                No Events Yet
+              </span>
             </div>
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
               <h1 className="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font">
@@ -52,73 +34,50 @@ export default function Footer() {
               </h1>
               <nav className="mb-10 list-none">
                 <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
+                  <a
+                    href="/"
+                    className="text-sm text-gray-600 hover:text-gray-800"
+                  >
                     Home
                   </a>
                 </li>
                 <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
+                  <a
+                    href="/#about-1"
+                    className="text-sm text-gray-600 hover:text-gray-800"
+                  >
                     About
                   </a>
                 </li>
                 <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Carriers
+                  <a
+                    href="/team"
+                    className="text-sm text-gray-600 hover:text-gray-800"
+                  >
+                    Team
                   </a>
                 </li>
                 <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Pricing
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    {" "}
-                    Security
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    {" "}
-                    Contact Us
+                  <a
+                    href="/walloffame"
+                    className="text-sm text-gray-600 hover:text-gray-800"
+                  >
+                    Wall Of Fame
                   </a>
                 </li>
               </nav>
             </div>
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
               <h1 className="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font">
-                Legal
+                About Force
               </h1>
               <nav className="mb-10 list-none">
                 <li>
                   <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Privacy Policy
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Terms Of Service
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Trademark Policy
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    Inactivity Policy
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    {" "}
-                    DPA
-                  </a>
-                </li>
-                <li>
-                  <a className="text-sm text-gray-600 hover:text-gray-800">
-                    SLA
+                    FORCE is the association of computer science in IIIT Una.
+                    Our main objective is to encourage open source
+                    software,improving coding culture,project building and
+                    introducing new platforms to work on
                   </a>
                 </li>
               </nav>
@@ -128,15 +87,15 @@ export default function Footer() {
         <div className="bg-black">
           <div className="container flex flex-col flex-wrap px-5 py-6 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-200 sm:text-left ">
-              © 2020
+              © 2021 <strong>Club Force</strong>
             </p>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
               <a className="text-white hover:text-blue-500">
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -146,9 +105,9 @@ export default function Footer() {
               <a className="ml-4 text-white hover:text-blue-500">
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -159,9 +118,9 @@ export default function Footer() {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
