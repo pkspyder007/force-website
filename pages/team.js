@@ -71,7 +71,7 @@ export default function TeamPage() {
         ))}
       </div>
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
-        Vollunteers
+        Volunteers
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {vollunteers.map((m, i) => (
