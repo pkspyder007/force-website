@@ -1,4 +1,9 @@
+import CoC from "@components/CoC";
 import MemberCard from "@components/MemberCard";
+import office from "../data/office.json";
+import mentors from "../data/mentors.json";
+import executives from "../data/executives.json";
+import coordinators from "../data/coordinators.json";
 
 export default function TeamPage() {
   return (
@@ -16,73 +21,54 @@ export default function TeamPage() {
       <h2 class="mb-4 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Faculty Coordinators
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-2 gap-4">
-        <MemberCard />
-        <MemberCard />
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-3 gap-4">
+        <MemberCard
+          name="Dr. S. SelvaKumar"
+          position="Director - IIIT Una"
+          img="/images/director.jpg"
+        />
+        <MemberCard
+          name="Dr. Vikram Kumar"
+          position="Faculty Coordinator"
+          img="/images/vikram.jpg"
+        />
+        <MemberCard
+          name="Ms. Ishita Vaidya"
+          position="Faculty Coordinator"
+          img="/images/ishitavaidya.jpg"
+        />
       </div>
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Office Bearers
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {office.map((m, i) => (
+          <MemberCard {...m} key={`${m.name}-${i}`} />
+        ))}
       </div>
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Mentors
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {mentors.map((m, i) => (
+          <MemberCard {...m} key={`${m.name}-${i}`} />
+        ))}
       </div>
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Coordinators
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {coordinators.map((m, i) => (
+          <MemberCard {...m} key={`${m.name}-${i}`} />
+        ))}
       </div>
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Executive Members
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
-        <MemberCard />
+        {executives.map((m, i) => (
+          <MemberCard {...m} key={`${m.name}-${i}`} />
+        ))}
       </div>
     </div>
   );

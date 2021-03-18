@@ -1,0 +1,52 @@
+[
+  {
+    "img": "/images/4_Anant.jpg",
+    "name": "Anant Mittal",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Ayush.jpg",
+    "name": "Ayush Jain",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Satyam.jpg",
+    "name": "Satyam Choudhary",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_jatin.jpg",
+    "name": "Jatin Nagpal",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Ananya.jpg",
+    "name": "Ananya Sharma",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Dev.jpeg",
+    "name": "Dev Tyagi",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Abhishek.jpg",
+    "name": "Abhishek Agarwal",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Prateek.jpg",
+    "name": "Prateek Bhardwaj",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/4_Vedaant.jpg",
+    "name": "Vedant Rajoo",
+    "position": "Mentor"
+  },
+  {
+    "img": "/images/dp.jpeg",
+    "name": "Aman Gupta",
+    "position": "Mentor"
+  }
+]

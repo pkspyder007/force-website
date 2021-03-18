@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/images/4_Sanyam.jpg",
+    "name": "Sanyam Jain",
+    "position": "President"
+  },
+  {
+    "img": "/images/4_Utkarsh.jpg",
+    "name": "Utkarsh Singh",
+    "position": "Vice President"
+  },
+  {
+    "img": "/images/3_Yash.jpg",
+    "name": "Yash Raj",
+    "position": "Core-Coordinator"
+  },
+  {
+    "img": "/images/3_Raghav.jpg",
+    "name": "Raghav Bansal",
+    "position": "Core-Coordinator"
+  }
+]

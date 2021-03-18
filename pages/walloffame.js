@@ -53,7 +53,7 @@ export default function WallOfFame() {
         <InfoLeft
           title="GSOC"
           desc="These students were selected for the Google Summer of Code."
-          list={["Shivam Tripathi"]}
+          list={["Shivam Tripathi", "Udit Gulati"]}
         />
       </section>
     </div>
