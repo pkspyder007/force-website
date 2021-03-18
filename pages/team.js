@@ -1,9 +1,9 @@
-import CoC from "@components/CoC";
 import MemberCard from "@components/MemberCard";
 import office from "../data/office.json";
 import mentors from "../data/mentors.json";
 import executives from "../data/executives.json";
 import coordinators from "../data/coordinators.json";
+import vollunteers from "../data/vollunteers.json";
 
 export default function TeamPage() {
   return (
@@ -67,6 +67,14 @@ export default function TeamPage() {
       </h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {executives.map((m, i) => (
+          <MemberCard {...m} key={`${m.name}-${i}`} />
+        ))}
+      </div>
+      <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
+        Vollunteers
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+        {vollunteers.map((m, i) => (
           <MemberCard {...m} key={`${m.name}-${i}`} />
         ))}
       </div>
