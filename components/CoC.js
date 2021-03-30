@@ -4,6 +4,31 @@ export default function CoC() {
       <section class="text-gray-700 body-font">
         <div class="container px-8 mx-auto pt-6 lg:px-4">
           <div class="flex flex-col w-full mb-12 text-left lg:text-center">
+            <h1 class="mb-6 mx-auto underline text-2xl font-semibold tracking-tighter text-black sm:text-6xl title-font">
+              Recent Posts
+              <br class="" />
+            </h1>
+            <div className="flex flex-wrap mb-20">
+              <iframe
+                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6776176767473369088"
+                height="540"
+                // width="50%"
+                frameborder="0"
+                allowfullscreen=""
+                title="Embedded post"
+                className="mt-6 w-full md:w-1/2"
+              ></iframe>
+              <iframe
+                src="https://www.linkedin.com/embed/feed/update/urn:li:share:6772123843155902464"
+                height="540"
+                // width="50%"
+                frameborder="0"
+                allowfullscreen=""
+                title="Embedded post"
+                className="mt-6 w-full md:w-1/2"
+              ></iframe>
+            </div>
+
             <div class="inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mx-auto mb-5 text-black bg-gray-200 rounded-full">
               <svg
                 class="w-10 h-10"
@@ -17,6 +42,7 @@ export default function CoC() {
                 <path d="M5.68 7.314l-1.82 5.914L12 19.442l8.14-6.214-1.82-5.914L16.643 11H7.356L5.681 7.314zM15.357 9l2.888-6.354a.4.4 0 0 1 .747.048l3.367 10.945a.5.5 0 0 1-.174.544L12 21.958 1.816 14.183a.5.5 0 0 1-.174-.544L5.009 2.694a.4.4 0 0 1 .747-.048L8.644 9h6.712z" />
               </svg>
             </div>
+
             <h1 class="mb-6 mx-auto underline text-2xl font-semibold tracking-tighter text-black sm:text-6xl title-font">
               Code Of Conduct
               <br class="" />

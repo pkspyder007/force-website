@@ -25,7 +25,7 @@ export default function Footer() {
                 Events
               </h1>
               <span className="text-sm text-gray-600 hover:text-gray-800">
-                No Events Yet
+               No Events Yet
               </span>
             </div>
             <div className="w-full px-4 lg:w-1/3 md:w-1/2">
@@ -87,7 +87,7 @@ export default function Footer() {
         <div className="bg-black">
           <div className="container flex flex-col flex-wrap px-5 py-6 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-200 sm:text-left ">
-              © 2021 <strong>Club Force</strong>
+              © 2021 <strong> Force</strong>
             </p>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
               <a className="text-white hover:text-blue-500">
