@@ -1,7 +1,8 @@
 import Image from "next/image";
 
 export default function MemberCard({
-  img = "/images/dp.jpeg",
+  // img = "/images/dp.jpeg",
+  img = "/images/desk.jpg",
   name = "John Doe",
   position = "Executive Member",
 }) {
