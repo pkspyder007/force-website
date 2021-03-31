@@ -8,24 +8,26 @@ export default function CoC() {
               Recent Posts
               <br class="" />
             </h1>
-            <div className="flex flex-wrap mb-20">
+            <div className="flex flex-wrap mb-20 justify-evenly">
               <iframe
                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:6776176767473369088"
                 height="540"
                 // width="50%"
+                style={{boxShadow:"1px 1px 1px 2px"}}
                 frameborder="0"
                 allowfullscreen=""
                 title="Embedded post"
-                className="mt-6 w-full md:w-1/2"
+                className="mt-6 flex w-full md:w-1/4"
               ></iframe>
               <iframe
                 src="https://www.linkedin.com/embed/feed/update/urn:li:share:6772123843155902464"
                 height="540"
                 // width="50%"
+                style={{boxShadow:"1px 1px 1px 2px"}}
                 frameborder="0"
                 allowfullscreen=""
                 title="Embedded post"
-                className="mt-6 w-full md:w-1/2"
+                className="mt-6 w-full md:w-1/4"
               ></iframe>
             </div>
 
