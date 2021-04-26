@@ -13,11 +13,11 @@ export default function IndexPage() {
         desc=""
         imgUrl="https://images.unsplash.com/photo-1564865878688-9a244444042a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
         list={[
-          "To improve your coding skills",
+          "To improve your coding skills.",
           "To become full stack developer.",
           "To excel at graphic designing.",
           "To improve your speaking skills.",
-          "To learn teamwork",
+          "To learn teamwork.",
         ]}
       />
       <InfoRight />
