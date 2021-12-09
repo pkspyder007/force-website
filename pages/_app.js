@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>FORCE - Forum For Computer Engineering - IIIT UNA</title>
         <meta
-          name="Description"
+          name="Description" 
           content="Force is the biggest coding club of IIIT Una lead by a group of phenomenal devs helping others to learn and grow in field of computer science."
         />
       </Head>
@@ -20,4 +20,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
-//ee
