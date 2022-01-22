@@ -41,11 +41,11 @@ export default function TeamPage() {
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Office Bearers
       </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-2 gap-4">
         {office.map((m, i) => (
           <MemberCard {...m} key={`${m.name}-${i}`} />
         ))}
-      </div>
+      </div> 
       <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Mentors
       </h2>
@@ -70,14 +70,14 @@ export default function TeamPage() {
           <MemberCard {...m} key={`${m.name}-${i}`} />
         ))}
       </div>
-      <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
+      {/* <h2 class="my-12 text-sm text-center font-semibold tracking-widest text-blue-600 uppercase title-font">
         Volunteers
-      </h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
+      </h2> */}
+      {/* <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
         {vollunteers.map((m, i) => (
           <MemberCard {...m} key={`${m.name}-${i}`} />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

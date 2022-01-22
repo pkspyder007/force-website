@@ -1,53 +1,52 @@
 [
   {
-    "img": "/images/4_Anant.jpg",
-    "name": "Anant Mittal",
-    "position": "Mentor"
+    "img": "/images/3_Shweta.jpg",
+    "name": "Shweta Gurnani",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Ayush.jpg",
-    "name": "Ayush Jain",
-    "position": "Mentor"
+    "img": "/images/3_Shreya.jpg",
+    "name": "Shreya Agrawal",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Satyam.jpg",
-    "name": "Satyam Choudhary",
-    "position": "Mentor"
+    "img": "/images/3_Prashasti.jpg",
+    "name": "Prashati Gupta",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_jatin.jpg",
-    "name": "Jatin Nagpal",
-    "position": "Mentor"
+    "img": "/images/3_Chandan.jpeg",
+    "name": "Chandan Sitlani",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Ananya.jpg",
-    "name": "Ananya Sharma",
-    "position": "Mentor"
+    "img": "/images/3_Uttam.jpg",
+    "name": "Uttam Kumar",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Dev.jpeg",
-    "name": "Dev Tyagi",
-    "position": "Mentor"
+    
+    "name": "Surendra Kumar",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Abhishek.jpg",
-    "name": "Abhishek Agarwal",
-    "position": "Mentor"
+    "img": "/images/3_Siddhant.jpg",
+    "name": "Siddanth Gandhi",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Prateek.jpg",
-    "name": "Prateek Bhardwaj",
-    "position": "Mentor"
+    
+    "name": "Chiraag Mittal",
+    "position": "Mentors"
   },
   {
-    "img": "/images/4_Vedaant.jpg",
-    "name": "Vedant Rajoo",
-    "position": "Mentor"
+    
+    "name": "Abdul Qadir",
+    "position": "Mentors"
   },
   {
-    "img": "/images/desk.jpg",
-    "name": "Aman Gupta",
-    "position": "Mentor"
+    "img": "/images/3_varun.jpg",
+    "name": "Varun Aditya",
+    "position": "Mentors"
   }
 ]
-
