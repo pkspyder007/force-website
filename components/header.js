@@ -60,9 +60,11 @@ export default function Header() {
                 </a>
               </li>
               <li>
+                <form action="mailto:clubforce@iiitu.ac.in" enctype="multipart/form-data">
                 <button class="inline-flex items-center px-6 py-2 font-semibold text-black transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2">
                   Contact
                 </button>
+                </form>
               </li>
             </ul>
           </nav>
